@@ -18,7 +18,7 @@ var projection = d3.geoMercator()
 
 var path = d3.geoPath().projection(projection);
 
-var map = svg.selectAll('path')
+var blocks = svg.selectAll('path')
                 .data(geo_data.features)
                 .enter()
                 .append('path')
@@ -27,3 +27,14 @@ var map = svg.selectAll('path')
                 .style('stroke', 'rgba(240, 240, 240, 1)')
                 .style('stroke-width', 0.5);
 }
+
+d3.json("resources/data/GeoJson/NorwayCoastline.json",function(json) {
+
+    var coast = svg.selectAll('path')
+                    .data(json.features)
+                    .enter()
+                    .append('path')
+                    .attr('d', path)
+                    .style('stroke', 'rgba(99, 99, 99, 1)')
+                    .style('stroke-width', 0.5);
+});
