@@ -87,6 +87,18 @@ The coastlines can be taken from the European Environment Agency. However these 
 
 `Norway Coastlines <https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/norway-shapefile>`_
 
+------------
+Work Process
+------------
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Setting up the geospatial data
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+As a base for the figure the spatial outlines need to be correctly formatted to form the basis of the choropleth.
+
+Datasets were downloaded as shapefiles then converted to GeoJson. First test shows they work ok but their position and scaling is incorrect on the plot.
+
 -------
 Wrap-up
 -------
