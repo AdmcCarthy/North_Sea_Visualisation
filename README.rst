@@ -56,10 +56,11 @@ Visualisation development process
 Wrap-up
 -------
 
-^^^^^^^^^^^^^
-Resource used
-^^^^^^^^^^^^^
+^^^^^^^^^
+Resources
+^^^^^^^^^
 
 'Google JavaScript Style Guide <https://google.github.io/styleguide/jsguide.html>
 
+To convert shape file to GeoJson 'Ogre <http://ogre.adc4gis.com/>
 
