@@ -66,15 +66,33 @@ Feedback
 Visualisation development process
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+----
+Data
+----
+
+Shapefiles for the North Sea were obtanied from the `NPD <http://factpages.npd.no/ReportServer?/FactPages/geography/geography_all&rc:Toolbar=false&IpAddress=1&CultureCode=en>`_
+
+The datum of the geometry of the Shapefile is European Datum 1950 (ED50, 
+spatial reference ID is EPSG:4230).
+
+These were taken as shapefiles and converted to GeoJson using the Ogre portal.
+
+The coastlines are taken from the European Environment Agency.
+
+`European Coastlines <https://www.eea.europa.eu/data-and-maps/data/eea-coastline-for-analysis-1/gis-data/europe-coastline-shapefile>`_
+
+`Norway Coastlines <https://www.eea.europa.eu/data-and-maps/data/eea-reference-grids-2/gis-files/norway-shapefile>`_
+
 -------
 Wrap-up
 -------
+
 
 ^^^^^^^^^
 Resources
 ^^^^^^^^^
 
-'Google JavaScript Style Guide <https://google.github.io/styleguide/jsguide.html>
+`Google JavaScript Style Guide <https://google.github.io/styleguide/jsguide.html>`_
 
-To convert shape file to GeoJson 'Ogre <http://ogre.adc4gis.com/>
+To convert shape file to GeoJson `Ogre <http://ogre.adc4gis.com/>`_
 
