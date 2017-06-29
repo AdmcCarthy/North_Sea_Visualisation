@@ -39,7 +39,7 @@ by interacting and viewing the data by each year.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Initial design decisions
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 The initial design choice is a choropleth map.
 
@@ -64,7 +64,7 @@ vary over the years to deliver a narrative.
 
 ^^^^^^^^
 Feedback
-^^^^^^^^^
+^^^^^^^^
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Visualisation development process
