@@ -11,12 +11,12 @@ var svg = d3.select("body")
     .append('g')
     .attr('class', 'map');
 
-var projection = d3.geo.mercator()
+var projection = d3.geoMercator()
                         .center([ 13, 52])
                         .scale( width/0.7)
                         .translate( [width / 2, height / 1.5]);
 
-var path = d3.geo.path().projection(projection);
+var path = d3.geoPath().projection(projection);
 
 var map = svg.selectAll('path')
                 .data(geo_data.features)
