@@ -48,9 +48,9 @@ Legends
 Feedback
 ^^^^^^^^^
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Evolution of the visualisation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Visualisation development process
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -------
 Wrap-up
