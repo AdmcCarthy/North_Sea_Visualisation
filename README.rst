@@ -2,7 +2,11 @@
 North_Sea_Visualisation
 =======================
 
-The history of the North Sea, using d3
+The history of the North Sea, using d3.
+
+Does the visualisation have a clear finding?
+
+Does it focus on it's finding?
 
 ---------------
 Getting started
