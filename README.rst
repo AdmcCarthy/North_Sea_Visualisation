@@ -81,7 +81,7 @@ spatial reference ID is EPSG:4230).
 
 These were taken as shapefiles and converted to GeoJson using the Ogre portal.
 
-The coastlines are taken from the European Environment Agency.
+The coastlines can be taken from the European Environment Agency. However these were too large file sizes to convert to GeoJson so this is put on hold for the moment.
 
 `European Coastlines <https://www.eea.europa.eu/data-and-maps/data/eea-coastline-for-analysis-1/gis-data/europe-coastline-shapefile>`_
 
