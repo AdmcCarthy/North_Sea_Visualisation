@@ -24,6 +24,26 @@ Then open up a localhost on port 8000 (default for python) in your browser.
 Design Approach
 ---------------
 
+Following exploratory data analysis of the North Sea NPD dataset
+the approach is to create a martini glass style visualisation.
+
+The author driven part will demonstrate the -----
+found within the data.
+
+The viewer element -----
+
+^^^^^^^^^^^^^^^^^^^^^^^^
+Initial design decisions
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Chart type
+
+Visual encoding
+
+Layout
+
+Legends
+
 ^^^^^^^^
 Feedback
 ^^^^^^^^^
