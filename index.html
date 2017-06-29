@@ -31,8 +31,8 @@
                      .enter()
                      .append('path')
                      .attr('d', path)
-                     .style('fill', 'lightBlue')
-                     .style('stroke', 'black')
+                     .style('fill', 'rgba(189, 189, 189, 0.9)')
+                     .style('stroke', 'rgba(240, 240, 240, 1)')
                      .style('stroke-width', 0.5);
       };
       </script>
@@ -43,7 +43,7 @@
     Use D3 to load the GeoJSON file
     */
     
-d3.json("QuadArea.json", draw);
+d3.json("NCS_Lic.json", draw);
   </script>
 </body>
 </html>
