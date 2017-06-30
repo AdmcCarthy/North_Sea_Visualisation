@@ -26,15 +26,7 @@ var blocks = svg.selectAll('path')
                 .style('fill', 'rgba(189, 189, 189, 0.9)')
                 .style('stroke', 'rgba(240, 240, 240, 1)')
                 .style('stroke-width', 0.5);
+
 }
 
-d3.json("resources/data/GeoJson/NorwayCoastline.json",function(json) {
-
-    var coast = svg.selectAll('path')
-                    .data(json.features)
-                    .enter()
-                    .append('path')
-                    .attr('d', path)
-                    .style('stroke', 'rgba(99, 99, 99, 1)')
-                    .style('stroke-width', 0.5);
-});
+d3.json("resources/data/GeoJson/fldArea.json", draw);
